@@ -1,0 +1,60 @@
+a:link{
+    color: white;
+}
+a:visited{
+    color: black;
+}
+button:hover{
+    background-color: wheat;
+}
+a:active{
+    color: blueviolet;
+}
+button{
+    color: white;
+    margin-left:10px;
+}
+p{
+    font-size: larger;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight:bold;
+    text-decoration: underline;
+    word-spacing:2px;
+    letter-spacing:1px;
+}
+section > h2{
+    color: rgb(157, 103, 33);
+    padding-left:30px;
+
+}
+table > th{
+    color: red;
+    border: 2;
+    border-style:2px inset red;
+}
+td{
+    padding-left:10px;
+    padding-right:5px;
+    font-size: larger; 
+}
+iframe{
+    padding-top:30px;
+    padding-left:30px;
+}
+table{
+    width:300px;
+    height:100px;
+}
+body{
+    background-color: rgb(22, 219, 219);
+}
+li:hover{
+    color:blue;
+}
+li{
+    display:inline
+}
+
+
+
