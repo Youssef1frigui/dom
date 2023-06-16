@@ -1,3 +1,6 @@
+.ss{
+    background-color: rgb(190, 29, 169);
+}
 li{
     font-family:helvetica neue, roboto;
     display:inline;
@@ -8,7 +11,7 @@ li{
     font-size: large;
 }
 a:link{
-    color: white;
+    color:black;
 }
 a:visited{
     color: black;
@@ -32,7 +35,7 @@ p{
     letter-spacing:0px;
 }
 section > h2{
-    color: rgb(157, 103, 33);
+    color: rgb(63, 37, 2);
     padding-left:30px;
     text-decoration: underline;
 }
@@ -46,18 +49,52 @@ td{
 }
 iframe{
     padding-top:30px;
-    padding-left:30px;
+    padding: left 30px;
 }
 table{
     width:300px;
     height:100px;
+    position: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+    justify-self: stretch;
+    border: 2px;
+    border-style: double;
+    color: black;
 }
-body{
-    background-color: rgb(22, 219, 219);
+
+#about{
+    font-style: oblique;
 }
-li:hover{
-    color:blue;
+nav{
+    position: relative;
+    background-color: rgba(255, 238, 0, 0.7);
+    width: 100%;
 }
+div{
+    font-size: 40px;
+    padding-left: 500px;
+    text-decoration: solid;
+    font-style: italic;
+}
+#work{
+    text-align: center;
+    font-style: oblique;
+}
+#resume{
+    font-style: oblique;
+}
+#contact{
+    font-style: oblique;
+}
+#about > h2{
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 
 
 

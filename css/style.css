@@ -6,6 +6,7 @@ a:visited{
 }
 button:hover{
     background-color: wheat;
+    display: flex;
 }
 a:active{
     color: blueviolet;
@@ -55,6 +56,8 @@ li:hover{
 li{
     display:inline
 }
+
+
 
 
 
